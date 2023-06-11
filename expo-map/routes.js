@@ -25,7 +25,7 @@ const Routes = () => {
         name="deneme"
         component={denemeScreen}
         options={{
-          title:'Deneme Ekrani',
+          title:'Profil Bilgileri',
           headerStyle: {
             backgroundColor:'pink'
           }

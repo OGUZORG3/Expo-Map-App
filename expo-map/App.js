@@ -1,4 +1,7 @@
+
 import React from 'react';
+import { SafeAreaView, View,Text, TextComponent} from 'react-native';
+import CustomTextComponent from './src/CustomTextComponent';
 import Routes from './routes';
 
 const App = () => {
@@ -6,24 +9,33 @@ const App = () => {
 }
 
 
-export default App;
-/*
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>higf!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-*/
+
+
+
+
+  const onChange=(text)=>{
+
+
+  }
+
+
+/*return(<View style={{paddingTop:250,backgroundColor:'grey',flex:1}}>
+
+   
+    
+<CustomTextComponent  title={"Ad:"} onChange={onChange} type={"default"}/>
+<CustomTextComponent title={"Soyad:"} onChange={onChange} type={"default"}/>
+<CustomTextComponent title={"Numara:"} onChange={onChange} type={"phone-pad"}/>
+<CustomTextComponent title={"E-mail:"} onChange={onChange} type={"email-adres"}/>
+
+
+</View>)*/
+
+
+
+
+
+export default App
+
